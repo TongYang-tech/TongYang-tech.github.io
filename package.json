@@ -4,8 +4,7 @@
   "description": "Personal portfolio to showcase current career updates and side projects.",
   "scripts": {
     "setup": "npm install && cd ./client && npm run setup",
-    "start": "cd ./client && npm run start",
-    "lint": "cd ./client && eslint --fix"
+    "start": "cd ./client && npm run start"
   },
   "repository": {
     "type": "git",
