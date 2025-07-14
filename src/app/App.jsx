@@ -1,11 +1,20 @@
-import './App.css'
+import {
+  createBrowserRouter,
+  RouterProvider
+} from 'react-router'
+import './App.scss'
+import Home from './routes/Home'
 
-function App() {
+const Router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Home />
+  }
+])
 
+const App = () => {
   return (
-    <>
-      Hello world
-    </>
+    <RouterProvider router={Router} />
   )
 }
 
